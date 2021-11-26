@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    background-color:#E8FFFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+}
+*, * :before, * :after {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.about__us{
+    background-color: darkslategray;
+}
+.nav {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    color: azure;
+    text-decoration:none;
+    transition: color .2s linear;
+    padding: 20px 0;
+}
+
+.nav__link:hover {
+    color: rgb(75, 170, 170);
+}
+
+.main-picture{
+    display: flex;
+    height: 600px;
+    background: url('Persian-Leopard.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.column_50{
+    display: flex;
+    flex:50%;
+    align-items: right;
+    padding: 0 20px;
+}
+
+.intro__title {
+    font-size: 100px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 1.6;
+    color: azure;
+    margin-top: 30px;
+}
+
+.section__title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: #41AEA9;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.section__suptitle {
+    
+    color: #41AEA9;
+    text-align: right;
+}
+
+.section__text{
+    font-size: 20px;
+    color:#41AEA9;
+    text-align: right;
+    margin-bottom: 150px;
+}
+
+.section__text01{
+    font-size: 20px;
+    color: #41AEA9;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/*leopard imagine*/
+.section__text__imag:hover .section__text__imagine #shown{
+    display: none;
+    
+}
+
+.section__text__imag .section__text__imagine #hidden{
+    display: none;
+    
+}
+
+.section__text__imag:hover .section__text__imagine #hidden{
+    display: block;
+    
+}
+/**/
