@@ -32,6 +32,16 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 0;
 }
 
+.nav__link_1 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    color: rgb(75, 170, 170);
+    text-decoration:none;
+    transition: color .2s linear;
+    padding: 20px 0;
+}
+
 .nav__link:hover {
     color: rgb(75, 170, 170);
 }
