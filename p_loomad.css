@@ -85,11 +85,24 @@ h1, h2, h3, h4, h5, h6 {
     text-align: right;
 }
 
+.section__suptitle1{
+    
+    color: #41AEA9;
+    text-align: left;
+}
+
 .section__text{
-    font-size: 20px;
-    color:#41AEA9;
+    font-size: 24px;
+    color:#213E3B;
     text-align: right;
-    margin-bottom: 150px;
+    margin-bottom: 60px;
+}
+
+.section__text1{
+    font-size: 24px;
+    color:#213E3B;
+    text-align: left;
+    margin-bottom: 60px;
 }
 
 .section__text01{
