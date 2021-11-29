@@ -52,16 +52,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 0;
 }
 
-.nav__link_1 {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 10px;
-    color: rgb(75, 170, 170);
-    text-decoration:none;
-    transition: color .2s linear;
-    padding: 20px 0;
-}
-
 .nav__link:hover {
     color: rgb(75, 170, 170);
 }
@@ -73,7 +63,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     color: azure;
     text-transform: uppercase;
-    margin-bottom: 25px;
 }
 
 .section__suptitle {
@@ -87,14 +76,6 @@ h1, h2, h3, h4, h5, h6 {
     color: azure;
     text-align: right;
     margin-bottom: 150px;
-}
-
-.section__text01{
-    font-size: 20px;
-    color: azure;
-    text-align: center;
-    padding-left: 80px;
-    padding-right: 80px;
 }
 
 /*leopard imagine*/
@@ -177,12 +158,12 @@ h1, h2, h3, h4, h5, h6 {
 .about{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 80px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .about__item{
     text-align: center;
-    width: 50%;
+    width: 30%;
     margin-top: 20px;
 }
