@@ -43,7 +43,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
     text-transform: uppercase;
 }
-
+.margin{
+    height: 60px;
+    background-color: #E8FFFF;
+}
 .nav__link {
     display: inline-block;
     vertical-align: top;
@@ -111,6 +114,3 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.about__us{
-    background-color: #E8FFFF;
-}
